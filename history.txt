@@ -1,0 +1,1000 @@
+  130  ls
+  131  pdw
+  132  pwd
+  133  cd 
+  134  cd 7_2_5X/casa/build/rmi-g2/
+  135  scp /home/fjj/7_2_5X/casa/mgmt/CLI/rmi-xls32/bin/TARGET_SMM/shell.exe nroot@172.0.1.224:/home/shell
+  136  sa
+  137  scp /home/fjj/7_2_5X/casa/mgmt/CLI/rmi-xls32/bin/TARGET_SMM/shell.exe nroot@172.0.1.224:/home/shell.exe.jjy
+  138  scp /home/fjj/7_2_5X/casa/build/rmi-g2/smmfs/casa/smm_bin/ nroot@172.0.1.224:/home/shell.exe.jjy
+  139  scp /home/fjj/7_2_5X/casa/build/rmi-g2/smmfs/casa/smm_bin/shell.exe nroot@172.0.1.224:/home/shell.exe.jjy
+  140  find /home/fjj/7_2_5X/ -name "*shell*"
+  141  scp /home/fjj/7_2_5X/casa/mgmt/CLI/rmi-xls32/bin/TARGET_SMM/shell.exe nroot@172.0.1.224:/home/shell.exe.jjy
+  142  scp /home/fjj/7_2_5X/casa/mgmt/CLI/rmi-xls32/bin/TARGET_SMM/shell.exe nroot@172.0.1.224:/home/shell.exe
+  143  find /home/fjj/7_2_5X/ -name "*shell*"
+  144  scp /home/fjj/7_2_5X/casa/build/rmi-g2/smmfs/casa/smm_bin/shell.exe nroot@172.0.1.224:/home/shell.exe
+  145  scp /home/fjj/7_2_5X/casa/mgmt/CLI/rmi-xls32/bin/TARGET_SMM/shell.exe nroot@172.0.1.224:/home/shell.exe
+  146  find /home/fjj/7_2_5X/ -name "*shell*"
+  147  cd 
+  148  find -name "100G"
+  149  cd ./7_2_5X/casa/build/archive/100G
+  150  ls
+  151  scp ../../../rmi-xls32/casa/mgmt/CLI/bin/TARGET_SMM/shell.exe nroot@172.0.1.224:/home/shell.exe.jjy
+  152  pwd
+  153  scp /home/fjj/7_2_5X/casa/build/archive/100G nroot@172.0.1.224://fdsk/image_100g.gz
+  154  scp /home/fjj/7_2_5X/casa/build/archive/100G/image_100g.gz nroot@172.0.1.224://fdsk/image_100g.gz
+  155  cd 
+  156  cd 7_2_5X/casa/build/rmi-g2/
+  157  scp ../../../rmi-xls32/casa/mgmt/CLI/bin/TARGET_SMM/shell.exe nroot@172.0.1.224:/home/shell.exe.jjy
+  158  make
+  159  scp /home/fjj/7_2_5X/casa/mgmt/CLI/rmi-xls32/bin/TARGET_SMM/shell.exe nroot@172.0.1.224:/home/shell.exe
+  160  scp /home/fjj/7_2_5X/casa/mgmt/CLI/rmi-xls32/bin/TARGET_SMM/shell.exe nroot@172.0.1.224:/home/shell.exe.jjy
+  161  cd
+  162  cd 7_2_5X/
+  163  accurev login 
+  164  accurev stat -m
+  165  accurev keep -c "113249" ./casa/hermes/include/qam_debug.h ./casa/hermes/qam_video/qam_debug.c
+  166  accurev stat -k
+  167  accurev cpkadd -I 113249 -k
+  168  grepc "ip_tbl_hash_sz"
+  169  grepc "ip_hs_tbl"
+  170  grepc "ip_hash"
+  171  grepc "ip_hash_tab"
+  172  grepc "ip_hash_tbl"
+  173  grepc "ip_hash_table"
+  174  grepc "ip_hash_"
+  175  grepc "ip_hash_cmp"
+  176  grepc "host_list"
+  177  grepc "ip_host_list"
+  178  accurev update
+  179  accurev login
+  180  accurev update
+  181  accurev stat -m
+  182  accurev keep -c "113249" ./casa/hermes/include/qam_debug.h ./casa/hermes/qam_video/qam_debug.c
+  183  accurev stat -k
+  184  accurev cpkadd -I 113249 -k
+  185  accurev purge ./casa/hermes/qam_video/qam_debug.c
+  186  accurev purge ./casa/hermes/include/qam_debug.h
+  187  accurev update
+  188  cd casa/build/rmi-g2/
+  189  make
+  190  accurev login 
+  191  accurev stat -m
+  192  accurev purge /./casa/include/in6_hdr_def.h
+  193  accurev purge /./casa/hermes/qam_cmts/ds_l3_lkup.c
+  194  accurev purge /./casa/hermes/include/qam_debug.h
+  195  accurev purge /./casa/hermes/include/ds_ipv6_fwd.h 
+  196  accurev purge /./casa/hermes/include/ds_l3_lkup.h
+  197  accurev purge /./casa/hermes/qam_video/qam_debug.c
+  198  accurev stat -m
+  199  make
+  200  accurev stat -m
+  201  accurev keep -c "113249" ./casa/hermes/include/qam_debug.h ./casa/hermes/qam_video/qam_debug.c
+  202  cd 
+  203  cd 7_2_5X/
+  204  accurev keep -c "113249" ./casa/hermes/include/qam_debug.h ./casa/hermes/qam_video/qam_debug.c
+  205  cd casa/build/rmi-g2/
+  206  cd
+  207  cd 7_2_5X/
+  208  accurev keep -c "113249" ./casa/hermes/include/qam_debug.h ./casa/hermes/qam_video/qam_debug.c /./casa/hermes/include/ds_l3_lkup.h /./casa/hermes/qam_cmts/ds_l3_lkup.c
+  209  accurev stat -m
+  210  cd casa/build/rmi-g2/
+  211  accurev stat -m
+  212  history 
+  213  accurev stat -m
+  214  make
+  215  accurev stat -m
+  216  make
+  217  accurev stat -m
+  218  make
+  219  accurev stat -m
+  220  accurev keep -c "113249" /./casa/hermes/include/ds_l3_lkup.h
+  221  accurev stat -k
+  222  accurev cpkadd -I 113249 -k
+  223  make
+  224  accurev diff -b
+  225  accurev keep -c "113249" /./casa/hermes/include/ds_l3_lkup.c
+  226  accurev stat -m
+  227  accurev keep -c "113249" /./casa/hermes/qam_cmts/ds_l3_lkup.c 
+  228  accurev stat -k
+  229  accurev cpkadd -I 113249 -k
+  230  make
+  231  accurev stat -m
+  232  accurev keep -c "113249" /./casa/include/in6_hdr_def.h /./casa/hermes/qam_cmts/ds_l3_lkup.c /./casa/hermes/include/ds_l3_lkup.h /./casa/hermes/qam_video/qam_debug.c
+  233  accurev stat -k
+  234  accurev cpkadd -I 113249 -k
+  235  make
+  236  accurev stat -m
+  237  accurev purge \.\casa\include\in6_hdr_def.h
+  238  accurev purge /./casa/include/in6_hdr_def.h
+  239  make
+  240  accurev stat -m
+  241  accurev keep -c "113249" /./casa/hermes/qam_cmts/ds_l3_lkup.c /./casa/hermes/include/ds_l3_lkup.h  /./casa/hermes/qam_video/qam_debug.c
+  242  accurev stat -k
+  243  accurev cpkadd -I 113249 -k
+  244  make
+  245  accurev stat -m
+  246  accurev keep -c "113249" /./casa/hermes/qam_cmts/ds_l3_lkup.c /./casa/hermes/include/ds_l3_lkup.h
+  247  accurev stat -k
+  248  accurev cpkadd -I 113249 -k
+  249  scp /home/fjj/7_2_5X/casa/mgmt/CLI/rmi-xls32/bin/TARGET_SMM/shell.exe nroot@172.0.1.224:/home/shell.exe.jjy
+  250  make
+  251  scp /home/fjj/7_2_5X/casa/mgmt/CLI/rmi-xls32/bin/TARGET_SMM/shell.exe nroot@172.0.1.224:/home/shell.exe.jjy
+  252  make
+  253  scp /home/fjj/7_2_5X/casa/mgmt/CLI/rmi-xls32/bin/TARGET_SMM/shell.exe nroot@172.0.1.224:/home/shell.exe.jjy
+  254  pwd
+  255  cd ..
+  256  la
+  257  ls
+  258  cd archive/100G/
+  259  ls
+  260  vim Makefile 
+  261  make xlp2
+  262  cd
+  263  cd 7_2_5X/casa/build/rmi-g2/
+  264  make lc_appls
+  265  show system
+  266  cd
+  267  cd 7_2_5X/casa/build/brcm-xlpii/
+  268  make lc64_appls
+  269  ls
+  270  pwd
+  271  cd ../ ..
+  272  ls
+  273  cd ..
+  274  cd hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  275  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  276  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  277  pwd
+  278  cd
+  279  cd 7_2_5X/casa/build/brcm-xlpii/
+  280  make lc64_appls
+  281  cd
+  282  cd 7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  283  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  284  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  285  cd 
+  286  cd 7_2_5X/casa/build/brcm-xlpii/
+  287  pwd
+  288  make lc64_appls
+  289  cd 7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  290  cd /home/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  291  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  292  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  293  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  294  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  295  make lc64_appls
+  296  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  297  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  298  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  299  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  300  make lc64_appls
+  301  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  302  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  303  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  304  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  305  make lc64_appls
+  306  cd
+  307  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  308  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  309  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  310  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  311  make
+  312  make lc64_appls
+  313  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  314  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  315  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  316  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  317  make lc64_appls
+  318  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  319  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  320  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  321  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  322  make lc64_appls
+  323  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  324  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  325  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  326  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  327  make lc64_appls
+  328  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  329  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  330  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  331  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  332  make lc64_appls
+  333  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  334  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  335  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  336  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  337  make lc64_appls
+  338  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  339  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  340  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  341  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  342  make lc64_appls
+  343  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  344  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  345  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  346  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  347  make lc64_appls
+  348  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  349  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  350  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  351  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  352  make lc64_appls
+  353  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  354  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  355  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  356  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  357  make lc64_appls
+  358  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  359  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  360  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  361  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  362  make lc64_appls
+  363  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  364  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  365  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  366  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  367  make lc64_appls
+  368  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  369  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  370  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  371  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  372  make lc64_appls
+  373  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  374  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  375  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  376  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  377  make lc64_appls
+  378  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  379  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  380  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  381  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  382  make lc64_appls
+  383  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  384  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  385  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  386  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  387  make lc64_appls
+  388  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  389  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  390  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  391  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  392  make lc64_appls
+  393  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  394  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  395  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  396  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  397  make lc64_appls
+  398  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  399  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  400  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  401  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  402  make lc64_appls
+  403  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  404  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  405  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  406  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  407  make lc64_appls
+  408  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  409  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  410  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  411  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  412  make lc64_appls
+  413  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  414  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  415  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  416  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  417  make lc64_appls
+  418  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  419  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  420  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  421  make lc64_appls
+  422  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  423  make lc64_appls
+  424  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  425  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  426  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  427  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  428  make lc64_appls
+  429  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  430  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  431  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  432  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  433  make lc64_appls
+  434  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  435  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  436  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  437  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  438  make lc64_appls
+  439  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  440  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  441  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  442  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  443  make lc64_appls
+  444  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  445  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  446  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  447  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  448  make lc64_appls
+  449  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  450  make lc64_appls
+  451  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  452  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  453  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  454  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  455  make lc64_appls
+  456  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  457  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  458  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  459  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  460  make lc64_appls
+  461  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  462  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  463  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  464  make lc64_appls
+  465  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  466  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  467  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  468  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  469  make lc64_appls
+  470  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  471  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  472  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  473  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  474  make lc64_appls
+  475  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  476  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  477  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  478  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  479  make lc64_appls
+  480  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  481  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  482  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  483  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  484  make lc64_appls
+  485  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  486  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  487  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  488  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  489  make lc64_appls
+  490  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  491  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  492  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  493  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  494  make lc64_appls
+  495  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  496  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  497  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  498  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  499  make lc64_appls
+  500  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  501  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  502  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  503  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  504  make lc64_appls
+  505  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  506  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  507  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  508  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  509  make lc64_appls
+  510  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  511  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  512  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  513  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  514  make lc64_appls
+  515  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  516  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  517  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  518  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  519  make lc64_appls
+  520  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  521  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  522  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  523  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  524  make lc64_appls
+  525  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  526  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  527  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  528  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  529  make lc64_appls
+  530  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  531  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  532  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  533  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  534  make lc64_appls
+  535  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  536  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  537  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  538  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  539  make lc64_appls
+  540  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  541  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  542  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  543  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  544  make lc64_appls
+  545  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  546  make lc64_appls
+  547  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  548  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  549  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  550  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  551  make lc64_appls
+  552  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  553  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  554  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  555  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  556  make lc64_appls
+  557  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  558  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  559  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  560  cd
+  561  cd 7_2_5X/
+  562  cd casa/
+  563  grep "ds_ipv6_fwd_hs_tbl"
+  564  grepc "ds_ipv6_fwd_hs_tbl"
+  565  grep -rn "ds_ipv6_fwd_hs_tbl"
+  566  grep -rn "ds_l3_hs_tbl"
+  567  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  568  make lc64_appls
+  569  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  570  make lc64_appls
+  571  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  572  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  573  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  574  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  575  make lc64_appls
+  576  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  577  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  578  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  579  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  580  make lc64_appls
+  581  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  582  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  583  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  584  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  585  make lc64_appls
+  586  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  587  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  588  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  589  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  590  make lc64_appls
+  591  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  592  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  593  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  594  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  595  make lc64_appls
+  596  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  597  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  598  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  599  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  600  make
+  601  make lc64_appls
+  602  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  603  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  604  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  605  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  606  make lc64_appls
+  607  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  608  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  609  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  610  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  611  make lc64_appls
+  612  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  613  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  614  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  615  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  616  make lc64_appls
+  617  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  618  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  619  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  620  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  621  make lc64_appls
+  622  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  623  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  624  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  625  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  626  make lc64_appls
+  627  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  628  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  629  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  630  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  631  make lc64_appls
+  632  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  633  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  634  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  635  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  636  make lc64_appls
+  637  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  638  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  639  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  640  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  641  make lc64_appls
+  642  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  643  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  644  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  645  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  646  make lc64_appls
+  647  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  648  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  649  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  650  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  651  make lc64_appls
+  652  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  653  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  654  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  655  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  656  make lc64_appls
+  657  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  658  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  659  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  660  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  661  make lc64_appls
+  662  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  663  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  664  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  665  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  666  make lc64_appls
+  667  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  668  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  669  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  670  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  671  make lc64_appls
+  672  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  673  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  674  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  675  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  676  make lc64_appls
+  677  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  678  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  679  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  680  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  681  make lc64_appls
+  682  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  683  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  684  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  685  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  686  make lc64_appls
+  687  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  688  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  689  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  690  ps -ef
+  691  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  692  make lc64_appls
+  693  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  694  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  695  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  696  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  697  make lc64_appls
+  698  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  699  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  700  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  701  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  702  make lc64_appls
+  703  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  704  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  705  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  706  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  707  make lc64_appls
+  708  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  709  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  710  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  711  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  712  make lc64_appls
+  713  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  714  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  715  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  716  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  717  make lc64_appls
+  718  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  719  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  720  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  721  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  722  make lc64_appls
+  723  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  724  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  725  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  726  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  727  make lc64_appls
+  728  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  729  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  730  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  731  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  732  make lc64_appls
+  733  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  734  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  735  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  736  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  737  make lc64_appls
+  738  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  739  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  740  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  741  cd 
+  742  cd 7_2_5X/
+  743  accurev stat -m
+  744  accurev login 
+  745  accurev stat -m
+  746  accurev keep -c "113249" 
+  747  accurev stat -m
+  748  accurev keep -c "113249" ./casa/hermes/qam_cmts/ds_ipv6_fwd.c ./casa/hermes/qam_cmts/qam_cm_tbl.c ./casa/hermes/qam_cmts/ds_l3_lkup.c ./casa/hermes/include/qam_debug.h  ./casa/hermes/include/ds_l3_lkup.h ./casa/hermes/qam_video/qam_debug.c  
+  749  accurev stat -k
+  750  accurev cpkadd -I 113249 -k
+  751  accurev stat -m
+  752  accurev keep -c "113249" ./casa/hermes/qam_cmts/ds_ipv6_fwd.c ./casa/hermes/qam_cmts/qam_cm_tbl.c ./casa/hermes/include/qam_debug.h  ./casa/hermes/include/ds_l3_lkup.h
+  753  accurev stat -k
+  754  accurev cpkadd -I 113249 -k
+  755  accurev stat -m
+  756  accurev stat -k
+  757  accurev keep -c "113249" ./casa/hermes/qam_cmts/ds_ipv6_fwd.c ./casa/hermes/qam_cmts/qam_cm_tbl.c ./casa/hermes/include/qam_debug.h  ./casa/hermes/include/ds_l3_lkup.h
+  758  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  759  make lc64_appls
+  760  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  761  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  762  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  763  cd 
+  764  cd 7_2_5X/casa/build/rmi-g2/
+  765  make
+  766  cd /home/fjj/7_2_5X/casa/build/brcm-xlpii
+  767  make lc64_appls
+  768  cd ~/7_2_5X/casa/hermes/qam_video/brcm-xlpii/bin/TARGET_LC64/
+  769  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  770  scp qam8x192_daemon nroot@172.0.1.224:/tftpboot/
+  771  cd
+  772  cd 7_2_5X/
+  773  accurev stat -m
+  774  accurev login 
+  775  accurev stat -m
+  776  accurev keep -c "113249" ./casa/hermes/include/ds_l3_lkup.h
+  777  accurev stat -k
+  778  accurev cpkadd -I 113249 -k
+  779  accurev stat -m
+  780  accurev keep -c "113249" ./casa/hermes/include/ds_l3_lkup.h
+  781  accurev stat -k
+  782  accurev cpkadd -I 113249 -k
+  783  accurev stat -k
+  784  accurev promote -c "Bug 113249 - s_qamdbg.sh cli show cm diag does not work for ipv6" -I 113249 -k
+  785  cd 
+  786  cls
+  787  cd 
+  788  ls
+  789  cd workspace_1/
+  790  ls
+  791  cd 825X/
+  792  cd casa/build/brcm-xlpii/
+  793  make lc64_appls
+  794  cd ../../..
+  795  find -name "TARGET_LC64"
+  796  cd brcm-xlpii
+  797  cd brcm-xlpii64/
+  798  ls
+  799  cd bin
+  800  cd
+  801  cd workspace_1/825X/casa/build/netl-xlp/
+  802  make lc64_appls
+  803  cd ..
+  804  cd brcm-xlpii64/casa/uni_daemon/bin/TARGET_LC64/
+  805  cd 
+  806  cd workspace_1/825X/casa/build/netl-xlp/
+  807  make lc64_appls
+  808  cd brcm-xlpii64/casa/uni_daemon/bin/TARGET_LC64/
+  809  cd ../../..
+  810  cd brcm-xlpii64/casa/uni_daemon/bin/TARGET_LC64/
+  811  mips64-unknown-linux-gnu-strip qam8x192_daemon
+  812  mips64-unknown-linux-gnu-strip uni_daemon 
+  813  scp uni_daemon nroot@172.0.1.224:/tftpboot/
+  814  cd
+  815  find -name "100G"
+  816  cd workspace_1/825X/casa/build/archive/100G/
+  817  make
+  818  pwd
+  819  cd 
+  820  cd workspace_1/825X/
+  821  accurev update
+  822  cd 
+  823  cd /home/fjj/workspace_1/825X/casa/build/archive/100G
+  824  make
+  825  ls
+  826  cd workspace_1/825X/
+  827  find -name "parpdbg.sh"
+  828  vim ./casa/build/rmi-g2/smmfs/casa/smm_bin/parpdbg.sh
+  829  vim ./casa/arch/board/smm/util/parpdbg.sh
+  830  cd 
+  831  ls
+  832  cd
+  833  ls
+  834  vim a.c
+  835  lsa
+  836  ls
+  837  cd workspace_1/
+  838  accurev update
+  839  accurev login
+  840  accurev update
+  841  ls
+  842  cd 825X/
+  843  accurev update
+  844  cd ..
+  845  mkdir 826X
+  846  cd 826X/
+  847  accurev mkws -b REL_8_2_6_X_INT -w workspace_826 -l ./
+  848  accurev update
+  849  ls
+  850  cd ..
+  851  ls
+  852  cd 826X/
+  853  ls
+  854  accurev update
+  855  cd ..
+  856  accurev update
+  857  cd 826X/
+  858  ls
+  859  cd ..
+  860  cd 825X/
+  861  ls
+  862  cd ..
+  863  ls
+  864  cd ..
+  865  ls
+  866  cd fjj/
+  867  ls
+  868  cd ..
+  869  cd fjj/
+  870  ls
+  871  cd 7_2_5X/
+  872  cd ..
+  873  cd workspace_1/
+  874  ls
+  875  cd ..
+  876  ls
+  877  pwd
+  878  cd workspace_1/
+  879  mv 825X/ /home/fjj
+  880  ls
+  881  cd 826X/
+  882  ls
+  883  cd ..
+  884  ls
+  885  cd 825X/
+  886  ls
+  887  accurev update
+  888  cd ..
+  889  ls
+  890  mv 825X/ ./workspace_1/
+  891  ls
+  892  cd workspace_1/82
+  893  cd workspace_1/825X/
+  894  ls
+  895  accurev update
+  896  cd ..
+  897  ls
+  898  cd 826X/
+  899  accurev mkws -b REL_8_6_X-INT -w workspace_2 -l ./
+  900  accurev mkws -b REL_8_6_X_INT -w workspace_826 -l ./
+  901  accurev update
+  902  ls
+  903  grepc "show docsis downstream channel"
+  904  grepc "Utilization Online Secondary Channel"
+  905  grepc "print_downstream_utilization_header"
+  906  cd ..
+  907  ls
+  908  cd 825X/
+  909  accurev login
+  910  accurev update
+  911  cd casa/build/rmi-g2/
+  912  make
+  913  scp ../../../rmi-xls32/casa/mgmt/CLI/bin/TARGET_SMM/shell.exe nroot@172.0.1.225:/home/shell.exe.jjy
+  914  cd ..
+  915  cd /home/fjj/workspace_1/825X/casa/build/archive/100G
+  916  make
+  917  scp image_100g.gz nroot@172.0.1.225:/fdsk/fjj.gz
+  918  pwd
+  919  cd
+  920  cd workspace_1/
+  921  cd 825X/
+  922  accurev stat -m
+  923  accurev purge ./casa/mgmt/config/cfg_callbacks/ofdm_cfg.c
+  924  ls
+  925  cd workspace_1/826X/
+  926  cd casa/build/rmi-g2/
+  927  make
+  928  cd ..
+  929  accurev stat -m
+  930  cd ..
+  931  accurev stat -m
+  932  cd casa/build/rmi-g2/
+  933  make
+  934  cd ..
+  935  cd /home/fjj/workspace_1/826X/casa/build/archive/100G/
+  936  make
+  937   scp image_100g.gz nroot@172.0.1.225:/fdsk/fjj.gz
+  938  cd 
+  939  cd workspace_1/826X/
+  940  accurev stat -m
+  941  accurev purge ./casa/mgmt/config/cfg_callbacks/ofdm_cfg.c
+  942  ls
+  943  cd workspace_1/
+  944  ps -ef
+  945  ls
+  946  ./1 
+  947  vim 1.c 
+  948  ls
+  949  gdb
+  950  ps -ef
+  951  gdb
+  952  ps -ef
+  953  ls
+  954  cd workspace_1/
+  955  ls
+  956  vim 1.c
+  957  gcc 1.c -o 1
+  958  vim 1.c
+  959  gcc 1.c -o 1
+  960  vim 1.c
+  961  gcc 1.c -o 1
+  962  vim 1.c
+  963  gcc 1.c -o 1
+  964  ./1
+  965  gcc 1.c -g -o 1
+  966  gdb tst
+  967  gdb 1
+  968  gcc 1.c -g -o 1
+  969  gdb 1
+  970  ls
+  971  rm 1.c 
+  972  rm 1 
+  973  ls
+  974  vim test.c
+  975  gcc test.c -g -o test
+  976  vim test.c
+  977  rm test.c 
+  978  ls
+  979  vim test.c
+  980  gcc test.c -g -o test
+  981  ./test 
+  982  addr2line -e test 0x40076f
+  983  readelf -w test
+  984  addr2line -e test 0x40076f
+  985  cat test.c 
+  986  addr2line -e test 0x40076f
+  987  ./test 
+  988  addr2line -e test 0x40076f
+  989  gdb test
+  990  ls
+  991  vim test.c 
+  992  gcc test.c -g -o test
+  993  vim test.c 
+  994  gcc test.c -g -o test -lpthread
+  995  ./test 
+  996  ps-ef
+  997  ps -ef
+  998  ./test 
+  999  ps -ef
+ 1000  ./test 
+ 1001  ls
+ 1002  git log
+ 1003  git 
+ 1004  git init
+ 1005  git add remote origin
+ 1006  ls
+ 1007  mkdir JJ
+ 1008  ls
+ 1009  cd JJ
+ 1010  git init
+ 1011  git add remote origin git@github.com:fanjiajun/JJ.git
+ 1012  git remote origin git@github.com:fanjiajun/JJ.git
+ 1013  git pull
+ 1014  git remote origin git@github.com:fanjiajun/This_is_homework.git
+ 1015  git remote This_is_homework git@github.com:fanjiajun/This_is_homework.git
+ 1016  git remote add This_is_homework git@github.com:fanjiajun/This_is_homework.git
+ 1017  git pull
+ 1018  git pull This_is_homework
+ 1019  git branch
+ 1020  history > histiry.txt
+ 1021  ls
+ 1022  git add *
+ 1023  git commit -m "Get history"
+ 1024  git config --global user.email "fanjiajun@casachina.com.cn"
+ 1025  git config --global user.name "fanjiajun"
+ 1026  git commit -m "Get history"
+ 1027   git push
+ 1028  git config --global push.default simple
+ 1029  git status
+ 1030  git push
+ 1031  git branch
+ 1032  git push origin/master
+ 1033  git push origin/master master
+ 1034  git push origin/master JJ
+ 1035  git push origin/master This_is_homework
+ 1036  git push origin/masterThis_is_homework
+ 1037  git push This_is_homework
+ 1038  git push origin/branch-ONE
+ 1039  history > history.txt
+ 1040  git add *
+ 1041  git commit -m "Record History"
+ 1042  git push
+ 1043  git push master
+ 1044  git push orgin/branch-ONE
+ 1045  git push --set-upstream orgin/branch-ONE master
+ 1046* 
+ 1047  git push This_is_homework
+ 1048  git push --set-upstream This_is_homework master
+ 1049  ssh-keygen -t rsa
+ 1050  cat windows.pub
+ 1051  ssh -v git@github.com
+ 1052  git push --set-upstream This_is_homework master
+ 1053  ssh-keygen -t rsa
+ 1054  git push --set-upstream This_is_homework master
+ 1055  git push --set-upstream This_is_homework
+ 1056  view plaincopy
+ 1057  ls\
+ 1058  ls
+ 1059  vim ./id_rsa.pub 
+ 1060  ssh-keygen
+ 1061  vim ./id_rsa.pub 
+ 1062  git init
+ 1063  git add
+ 1064  git add .
+ 1065  git commit -am "###"
+ 1066  git push --set-upstream This_is_homework master
+ 1067  git push origin
+ 1068  git push This_is_homewrok
+ 1069  git push This_is_homework
+ 1070   git push --set-upstream This_is_homework master
+ 1071   git push --set-upstream This_is_homework
+ 1072  git commit -m "first commit"
+ 1073  ssh-keygen -C 'emailName@163.com' -t rsa
+ 1074  ls
+ 1075  vim key.pub
+ 1076  cat ~/.ssh/id_rsa.pub
+ 1077  vim key.pub
+ 1078  ls
+ 1079  vim windows.pub 
+ 1080  ls
+ 1081  ssh-keygen
+ 1082  ls
+ 1083  cat id_rsa.pub
+ 1084  vim id_rsa.pub
+ 1085  ls
+ 1086  rm *
+ 1087  rm * -rf
+ 1088  history > history.txt
+ 1089   git push --set-upstream This_is_homework master
+ 1090  history > history.txt
+ 1091  ssh-keygen
+ 1092  ls
+ 1093  cd ..
+ 1094  ls
+ 1095  cd /home/fjj/.ssh/
+ 1096  ls
+ 1097  vim id_rsa.pub 
+ 1098  cat id_rsa.pub 
+ 1099  cd ..
+ 1100  l
+ 1101  ls
+ 1102  cd JJ/
+ 1103  LS
+ 1104   git push --set-upstream This_is_homework master
+ 1105   git push --set-upstream This_is_homework
+ 1106   git push
+ 1107  git remote add origin git@github.com:fanjiajun/JJ.git
+ 1108* git add remote origin git@github.com:tangmujie/MJ.git
+ 1109  git remote add origin git@github.com:frankiefanjiajun/JJ.git
+ 1110  git remote add origin git@github.com:frankiefanjiajun/This_is_homework.git
+ 1111  it pull master origin
+ 1112* 
+ 1113  git push
+ 1114  git add *
+ 1115  git commit -m "Record History"
+ 1116  git push
+ 1117  git push --set-upstream origin master
+ 1118  git push --set-upstream This_is_homework master
+ 1119  git push --set-upstream frankiefanjiajun/This_is_homework master
+ 1120  git push -u --set-upstream This_is_homework master
+ 1121  git clone git@github.com:git clone git@github.com:tangmujie/MJ.git.git
+ 1122  git clone git@github.com:frankiefanjiajun/This_is_homework.git
+ 1123  git push 
+ 1124  git push --set-upstream frankiefanjiajun/This_is_homework master
+ 1125  ls
+ 1126  cd This_is_homework/
+ 1127  LS
+ 1128  ls
+ 1129  history > history.txt
